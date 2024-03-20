@@ -1,5 +1,4 @@
-# CG-SLAM
-Efficient Dense RGB-D SLAM in a Consistent Uncertainty-aware 3D Gaussian Field
+# CG-SLAM: Efficient Dense RGB-D SLAM in a Consistent Uncertainty-aware 3D Gaussian Field
 
 ### [🌐 Project page]() | [📝 Paper]() | [📽️ Video]()
 
@@ -23,7 +22,7 @@ CG-SLAM: Efficient Dense RGB-D SLAM in a Consistent Uncertainty-aware 3D Gaussia
   </a>
 </p>
 
-We presents an efficient dense RGB-D SLAM system, based on a novel uncertainty-aware 3D Gaussian field with high consistency and geometric stability. In our system, we have introduced a comprehensive mathematical theory for the derivatives with respect to pose in the 3D Gaussian splatting framework. Additionally, we have developed a customized GPU-accelerated rasterization pipeline specifically for SLAM, enabling our system to achieve state-of-the-art accuracy and efficiency in various scenarios.
+<p style="text-align: justify;">We presents an efficient dense RGB-D SLAM system, based on a novel uncertainty-aware 3D Gaussian field with high consistency and geometric stability. In our system, we have introduced a comprehensive mathematical theory for the derivatives with respect to pose in the 3D Gaussian splatting framework. Additionally, we have developed a customized GPU-accelerated rasterization pipeline specifically for SLAM, enabling our system to achieve state-of-the-art accuracy and efficiency in various scenarios.</p>
 
 **Table of Contents**
 
