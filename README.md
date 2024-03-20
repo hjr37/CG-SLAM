@@ -28,10 +28,7 @@ CG-SLAM: Efficient Dense RGB-D SLAM in a Consistent Uncertainty-aware 3D Gaussia
 
 - [Installation](#installation)
 - [Usage](#usage)
-    - [Downloading Example Datasets](#downloading-example-datasets)
-    - [Training a Feature Field](#training-a-feature-field)
-    - [Using our Custom Viewer](#using-our-custom-viewer)
-    - [Using the Nerfstudio Viewer](#using-the-nerfstudio-viewer)
-    - [Extracting CLIP and DINO Features](#extracting-clip-and-dino-features)
-    - [Language-Guided Pose Optimization](#language-guided-pose-optimization)
+    - [Run](#downloading-example-datasets)
+    - [Evaluation](#training-a-feature-field)
+    - [Running CG-SLAM with your own datasets](#using-our-custom-viewer)
 - [Citation](#citation)
