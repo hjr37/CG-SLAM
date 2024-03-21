@@ -1,5 +1,7 @@
 # <sup><img src="./assets/Logo.png" alt="Logo" width="70px"></sup><font color="blue">CG-SLAM</font>: Efficient Dense RGB-D SLAM in a Consistent Uncertainty-aware 3D Gaussian Field
 
+<font color="blue">CG-SLAM</font>
+
 ### [🌐 Project page](https://zju3dv.github.io/cg-slam) | [📝 Paper]() | [📽️ Video]()
 
 CG-SLAM: Efficient Dense RGB-D SLAM in a Consistent Uncertainty-aware 3D Gaussian Field<br>
