@@ -31,12 +31,9 @@ CG-SLAM: Efficient Dense RGB-D SLAM in a Consistent Uncertainty-aware 3D Gaussia
 - [Usage](#usage)
     - [Run](#downloading-example-datasets)
     - [Evaluation](#training-a-feature-field)
-    - [Running CG-SLAM with your own datasets](#using-our-custom-viewer)
 - [Citation](#citation)
 
 
 # Update
 
 - [ ] Code for CG-SLAM
-- [ ] 
-- [ ] 
