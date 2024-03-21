@@ -15,7 +15,7 @@
 
 ### [🌐 Project page](https://zju3dv.github.io/cg-slam) | [📝 Paper]() | [📽️ Video]()
 
-<p align="center">
+<p align="left">
   <a href="">
     <img src="https://raw.githubusercontent.com/hjr37/open_access_assets/main/cg-slam/images/teaser.jpg" alt="CG-SLAM teaser" width="90%">
   </a>
