@@ -23,11 +23,7 @@
 
 <p style="text-align: justify;">We presents an efficient dense RGB-D SLAM system, based on a novel uncertainty-aware 3D Gaussian field with high consistency and geometric stability. In our system, we have introduced a comprehensive mathematical theory for the derivatives with respect to pose in the 3D Gaussian splatting framework. Additionally, we have developed a customized GPU-accelerated rasterization pipeline specifically for SLAM, enabling our system to achieve state-of-the-art accuracy and efficiency in various scenarios.</p>
 
-<p align="center">
-  <a href="">
-    <img src="https://raw.githubusercontent.com/hjr37/open_access_assets/main/cg-slam/video/rviz.mp4" alt="CG-SLAM teaser" width="90%">
-  </a>
-</p>
+<video src="https://raw.githubusercontent.com/hjr37/open_access_assets/main/cg-slam/video/rviz.mp4" width="640" height="360" controls></video>
 
 **Table of Contents**
 
