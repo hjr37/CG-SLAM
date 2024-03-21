@@ -1,6 +1,6 @@
 # CG-SLAM: Efficient Dense RGB-D SLAM in a Consistent Uncertainty-aware 3D Gaussian Field
 
-### [🌐 Project page]() | [📝 Paper]() | [📽️ Video]()
+### [🌐 Project page](https://zju3dv.github.io/cg-slam) | [📝 Paper]() | [📽️ Video]()
 
 CG-SLAM: Efficient Dense RGB-D SLAM in a Consistent Uncertainty-aware 3D Gaussian Field<br>
 **[Jiarui Hu]()<sup>1</sup>, [Xianhao Chen]()<sup>2</sup>,
