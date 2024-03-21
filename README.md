@@ -9,7 +9,7 @@ CG-SLAM: Efficient Dense RGB-D SLAM in a Consistent Uncertainty-aware 3D Gaussia
 [Liangjing Yang]()<sup>2</sup>,
 [Hujun Bao]()<sup>1</sup>
 [Guofeng Zhang]()<sup>1</sup>
-[Zhaopeng Cui]()<sup>\1*</sup>**<br>
+[Zhaopeng Cui]()<sup>1\*</sup>**<br>
 <sup>1 </sup>State Key Lab of CAD\&CG, Zhejiang University<br>
 <sup>2 </sup>ZJU-UIUC Institute, International Campus, Zhejiang University<br>
 <sup>* </sup>Corresponding author.<br>
