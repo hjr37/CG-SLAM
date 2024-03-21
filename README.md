@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="">
-    <img src="open_access_assets/cg-slam/images/teaser.jpg" alt="CG-SLAM teaser" width="80%">
+    <img src="https://raw.githubusercontent.com/hjr37/open_access_assets/main/cg-slam/images/teaser.jpg" alt="CG-SLAM teaser" width="80%">
   </a>
 </p>
 
