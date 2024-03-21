@@ -1,4 +1,4 @@
-# CG-SLAM: Efficient Dense RGB-D SLAM in a Consistent Uncertainty-aware 3D Gaussian Field
+# <sup><img src="logo.png" alt="Logo" width="50px"></sup> <span style="color: blue;">CG-SLAM</span>: Efficient Dense RGB-D SLAM in a Consistent Uncertainty-aware 3D Gaussian Field
 
 ### [🌐 Project page](https://zju3dv.github.io/cg-slam) | [📝 Paper]() | [📽️ Video]()
 
@@ -9,9 +9,9 @@ CG-SLAM: Efficient Dense RGB-D SLAM in a Consistent Uncertainty-aware 3D Gaussia
 [Liangjing Yang]()<sup>2</sup>,
 [Hujun Bao]()<sup>1</sup>
 [Guofeng Zhang]()<sup>1</sup>
-[Zhaopeng Cui]()<sup>\*1</sup>**<br>
-<sup>1 </sup>[State Key Lab of CAD\&CG, Zhejiang University]()<br>
-<sup>2 </sup>[ZJU-UIUC Institute, International Campus, Zhejiang University]()<br>
+[Zhaopeng Cui]()<sup>\1*</sup>**<br>
+<sup>1 </sup>State Key Lab of CAD\&CG, Zhejiang University<br>
+<sup>2 </sup>ZJU-UIUC Institute, International Campus, Zhejiang University<br>
 <sup>* </sup>Corresponding author.<br>
 
 -----
@@ -26,9 +26,17 @@ CG-SLAM: Efficient Dense RGB-D SLAM in a Consistent Uncertainty-aware 3D Gaussia
 
 **Table of Contents**
 
+- [Update](#Update)
 - [Installation](#installation)
 - [Usage](#usage)
     - [Run](#downloading-example-datasets)
     - [Evaluation](#training-a-feature-field)
     - [Running CG-SLAM with your own datasets](#using-our-custom-viewer)
 - [Citation](#citation)
+
+
+# Update
+
+- [x] Code for CG-SLAM
+- [x] 
+- [ ] 
