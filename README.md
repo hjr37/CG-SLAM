@@ -68,6 +68,7 @@
 
 # Installation
 **In terms of hardware requirements**, it is necessary to have a CUDA-enabled GPU with a Compute Capability of 7.0 or higher, as well as a minimum of 10GB VRAM. 
+
 **In terms of software requirements**, we recommend using Conda to manage your environment. Additionally, you need to meet the following three conditions for our code: a C++ Compiler for PyTorch extensions, CUDA SDK 11 for PyTorch extensions, and compatibility between the C++ Compiler and CUDA SDK. Our code has been tested with CUDA SDK 11.3 and python3.8.
 - ### Method 1 step-by-step set up(Recommended)
 ```bash
