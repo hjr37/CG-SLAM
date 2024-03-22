@@ -12,7 +12,7 @@
   <sup>1 </sup>State Key Lab of CAD\&CG, Zhejiang University<br>
   <sup>2 </sup>ZJU-UIUC Institute, International Campus, Zhejiang University<br>
   <sup>* </sup>Corresponding author.<br>
-<p align="center">
+</p>
 -----
 
 ### [🌐 Project page](https://zju3dv.github.io/cg-slam) | [📝 Paper]() | [📽️ Video]()
