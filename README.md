@@ -18,12 +18,11 @@
 ### [🌐 Project page](https://zju3dv.github.io/cg-slam) | [📝 Paper]() | [📽️ Video]()
 
 <p align="left">
+  <p style="text-align: justify;">This is the official implementation of <strong>CG-SLAM: Efficient Dense RGB-D SLAM in a Consistent Uncertainty-aware 3D Gaussian Field</strong>. CG-SLAM can achieve state-of-the-art performance in tracking, mapping, rendering, and efficiency.</p>
   <a href="">
     <img src="https://raw.githubusercontent.com/hjr37/open_access_assets/main/cg-slam/images/teaser.jpg" alt="CG-SLAM teaser" width="100%">
   </a>
 </p>
-
-<p style="text-align: justify;">We presents an efficient dense RGB-D SLAM system, based on a novel uncertainty-aware 3D Gaussian field with high consistency and geometric stability. In our system, we have introduced a comprehensive mathematical theory for the derivatives with respect to pose in the 3D Gaussian splatting framework. Additionally, we have developed a customized GPU-accelerated rasterization pipeline specifically for SLAM, enabling our system to achieve state-of-the-art accuracy and efficiency in various scenarios.</p>
 
 <p align="center">
   <a href="">
