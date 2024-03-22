@@ -13,6 +13,21 @@
 <sup>2 </sup>ZJU-UIUC Institute, International Campus, Zhejiang University<br>
 <sup>* </sup>Corresponding author.<br>
 
+# <center><sup><img src="./assets/Logo.png" alt="Logo" width="70px"></sup><font color="blue">CG-SLAM</font>: Efficient Dense RGB-D SLAM in a Consistent Uncertainty-aware 3D Gaussian Field</center>
+### <center>[🌐 Project page](https://zju3dv.github.io/cg-slam) | [📝 Paper]() | [📽️ Video]()</center>
+
+**<center>[Jiarui Hu]()<sup>1</sup>,
+[Xianhao Chen]()<sup>2</sup>,
+[Boyin Feng]()<sup>1</sup>,
+[Guanglin Li]()<sup>1</sup>,
+[Liangjing Yang](https://person.zju.edu.cn/ylj)<sup>2</sup>,
+[Hujun Bao](http://www.cad.zju.edu.cn/home/bao/)<sup>1</sup>
+[Guofeng Zhang](http://www.cad.zju.edu.cn/home/gfzhang/)<sup>1</sup>
+[Zhaopeng Cui](https://zhpcui.github.io/)<sup>1\*</sup></center>**<br>
+<center><sup>1 </sup>State Key Lab of CAD\&CG, Zhejiang University<br>
+<sup>2 </sup>ZJU-UIUC Institute, International Campus, Zhejiang University<br>
+<sup>* </sup>Corresponding author.<br></center>
+
 -----
 
 ### [🌐 Project page](https://zju3dv.github.io/cg-slam) | [📝 Paper]() | [📽️ Video]()
