@@ -26,7 +26,7 @@
 
 <p align="center">
   <a href="">
-    <img src="./assets/rviz.gif" alt="Rviz" width="100%">
+    <img src="https://raw.githubusercontent.com/hjr37/open_access_assets/main/cg-slam/video/rviz.gif" alt="Rviz" width="100%">
   </a>
 </p>
 
