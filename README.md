@@ -30,15 +30,34 @@
   </a>
 </p>
 
-**Table of Contents**
-
-- [Update](#Update)
-- [Installation](#installation)
-- [Usage](#usage)
-    - [Run](##downloading-example-datasets)
-    - [Evaluation](##training-a-feature-field)
-- [Acknowledgement](#Acknowledgement)
-- [Citation](#citation)
+<!-- TABLE OF CONTENTS -->
+<details open="open" style='padding: 10px; border-radius:5px 30px 30px 5px; border-style: solid; border-width: 1px;'>
+  <summary><strong>Table of Contents</strong></summary>
+  <ol>
+    <li>
+      <a href="#Update">Update</a>
+    </li>
+    <li>
+      <a href="#installation">Installation</a>
+    </li>
+    <li>
+      <a href="#demo">Online Demo</a>
+    </li>
+    <li>
+      <a href="#usage">Usage</a>
+      <ol>
+        <li><a href="##Run">Run</a></li>
+        <li><a href="##Evaluation">Evaluation</a></li>
+      </ol>
+    </li>
+    <li>
+      <a href="#Acknowledgement">Acknowledgement</a>
+    </li>
+    <li>
+      <a href="#Citation">Citation</a>
+    </li>
+  </ol>
+</details>
 
 
 # Update
