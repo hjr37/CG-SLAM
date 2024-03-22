@@ -67,7 +67,31 @@
 - [ ] Code for Evaluation
 
 # Installation
+Firstly, in terms of **hardware requirements**, it is necessary to have a CUDA-enabled GPU with a Compute Capability of 7.0 or higher, as well as a minimum of 10GB VRAM. For **software requirements**, we recommend using Conda to manage your environment. Additionally, you need to meet the following three conditions for our code: a C++ Compiler for PyTorch extensions, CUDA SDK 11 for PyTorch extensions, and compatibility between the C++ Compiler and CUDA SDK. Our code has been tested with CUDA SDK 11.3 and python3.8.
+- Method 1 step-by-step set up(Recommended)
+```bash
 
+# Cloning the Repository
+git clone xxxxxxxxxxxxxxxxx
+# Create the python environment and activate
+conda create --name cg-slam python=3.8
+conda activate cg-slam
+```
+Please note that you should choose the appropriate version of the installation based on your CUDA SDK version. You can refer to [PyTorch](https://pytorch.org/get-started/previous-versions/) for guidance in this regard.
+```bash
+pip install torch==1.11.0+cu113 torchvision==0.12.0+cu113 torchaudio==0.11.0 --extra-index-url https://download.pytorch.org/whl/cu113
+conda install cudatoolkit=11.3
+git clone --branch v0.6.2 https://github.com/facebookresearch/pytorch3d.gity
+cd pytorch3d && pip install -e . && cd ..
+pip install submodules/diff-gaussian-rasterization/
+pip install submodules/simple-knn/
+pip install pyyaml scikit-image torch_scatter opencv-python plyfile open3d tensorboard
+```
+- Method 2 Configure the environment in one line
+```bash
+conda env create --file environment.yml
+conda activate cg-slam
+```
 # Usage
 
 ## Run
