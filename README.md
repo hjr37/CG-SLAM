@@ -74,7 +74,7 @@
 ```bash
 
 # Cloning the Repository
-git clone xxxxxxxxxxxxxxxxx
+git clone https://github.com/hjr37/CG-SLAM.git
 # Create the python environment and activate
 conda create --name cg-slam python=3.8
 conda activate cg-slam
