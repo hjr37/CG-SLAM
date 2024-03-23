@@ -53,8 +53,8 @@
     <li>
       <a href="#usage">Usage</a>
       <ol>
-        <li><a href="## Run">Run</a></li>
-        <li><a href="## Evaluation">Evaluation</a></li>
+        <li><a href="https://github.com/hjr37/CG-SLAM/tree/main?tab=readme-ov-file#run">Run</a></li>
+        <li><a href="https://github.com/hjr37/CG-SLAM/tree/main?tab=readme-ov-file#Evaluation">Evaluation</a></li>
       </ol>
     </li>
     <li>
