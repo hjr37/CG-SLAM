@@ -51,9 +51,6 @@
       <a href="#installation">Installation</a>
     </li>
     <li>
-      <a href="#demo">Online Demo</a>
-    </li>
-    <li>
       <a href="#usage">Usage</a>
       <ol>
         <li><a href="##Run">Run</a></li>
