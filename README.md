@@ -88,7 +88,9 @@ git clone https://github.com/hjr37/CG-SLAM.git
 conda create --name cg-slam python=3.8
 conda activate cg-slam
 ```
-<p align="left", style="text-align: justify;">Please note that you should choose the appropriate version of the installation based on your CUDA SDK version. You can refer to <a href="https://pytorch.org/get-started/previous-versions/">Pytorch</a> for guidance in this regard.</p>
+<p align="left">
+  <p style="text-align: justify;">Please note that you should choose the appropriate version of the installation based on your CUDA SDK version. You can refer to <a href="https://pytorch.org/get-started/previous-versions/">Pytorch</a> for guidance in this regard.</p>
+</p>
 
 ```bash
 pip install torch==1.11.0+cu113 torchvision==0.12.0+cu113 torchaudio==0.11.0 --extra-index-url https://download.pytorch.org/whl/cu113
@@ -108,8 +110,9 @@ conda activate cg-slam
 
 ## Run
 ### Replica
-<p align="left", style="text-align: justify;">After downloading the dataset, you need to locate the corresponding YAML file in the <code>./configs/Replica</code> directory. Then, modify the value of <code>input_folder</code> in the YAML file to the local location of the datasets.</p>
-
+<p align="left">
+  <p style="text-align: justify;">After downloading the dataset, you need to locate the corresponding YAML file in the <code>./configs/Replica</code> directory. Then, modify the value of <code>input_folder</code> in the YAML file to the local location of the datasets.</p>
+</p>
 Then you can run CG-SLAM:
 ```bash
 python run.py --config ./configs/Replica/office0.yaml
