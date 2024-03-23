@@ -2,7 +2,8 @@
 
 # <sup><img src="./assets/Logo.png" alt="Logo" width="70px"></sup>CG-SLAM: Efficient Dense RGB-D SLAM in a Consistent Uncertainty-aware 3D Gaussian Field
 
-**[Jiarui Hu]()<sup>1</sup>, [Xianhao Chen]()<sup>2</sup>,
+**[Jiarui Hu](https://github.com/hjr37)<sup>1</sup>,
+[Xianhao Chen](https://github.com/CXavireH)<sup>2</sup>,
 [Boyin Feng]()<sup>1</sup>,
 [Guanglin Li]()<sup>1</sup>,
 [Liangjing Yang](https://person.zju.edu.cn/ylj)<sup>2</sup>,
