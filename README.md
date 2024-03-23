@@ -1,6 +1,6 @@
+<!-- CG-SLAM   -->
 
-  
-# <sup><img src="./assets/Logo.png" alt="Logo" width="70px"></sup><font color="blue">CG-SLAM</font>: Efficient Dense RGB-D SLAM in a Consistent Uncertainty-aware 3D Gaussian Field
+# <sup><img src="./assets/Logo.png" alt="Logo" width="70px"></sup>CG-SLAM: Efficient Dense RGB-D SLAM in a Consistent Uncertainty-aware 3D Gaussian Field
 
 **[Jiarui Hu]()<sup>1</sup>, [Xianhao Chen]()<sup>2</sup>,
 [Boyin Feng]()<sup>1</sup>,
@@ -67,14 +67,15 @@
 - [ ] Code for Evaluation
 
 # Installation
+We conducted our system testing on two desktop configurations: one with an Intel i9-14900K CPU and an NVIDIA RTX 4090 GPU, and another with an Intel Xeon Gold CPU and an NVIDIA RTX 3090 GPU. Our code has undergone testing with CUDA SDK 11.3 and Python 3.8.
+
 **In terms of hardware requirements**, it is necessary to have a CUDA-enabled GPU with a Compute Capability of 7.0 or higher, as well as a minimum of 10GB VRAM. 
 
-**In terms of software requirements**, we recommend using Conda to manage your environment. Additionally, you need to meet the following three conditions for our code: a C++ Compiler for PyTorch extensions, CUDA SDK 11 for PyTorch extensions, and compatibility between the C++ Compiler and CUDA SDK. Our code has been tested with CUDA SDK 11.3 and python3.8.
+**In terms of software requirements**, we recommend using Conda to manage your environment. Additionally, you need to meet the following three conditions for our code: a C++ Compiler for PyTorch extensions, CUDA SDK 11 for PyTorch extensions, and compatibility between the C++ Compiler and CUDA SDK. 
 - ### Method 1 step-by-step set up(Recommended)
 ```bash
-
 # Cloning the Repository
-git clone https://github.com/hjr37/CG-SLAM.git
+git clone xxxxxxxxxxxxxxxxx
 # Create the python environment and activate
 conda create --name cg-slam python=3.8
 conda activate cg-slam
@@ -97,6 +98,16 @@ conda activate cg-slam
 # Usage
 
 ## Run
+### Replica
+After downloading the dataset, you need to locate the corresponding YAML file in the `./configs/Replica` directory. Then, modify the value of `input_folder` in the YAML file to the local location of the datasets.
+
+Then you can run CG-SLAM:
+```bash
+python run.py --config ./configs/Replica/office0.yaml
+```
+### TUM RGB-D
+
+### Scannet
 
 ## Evaluation
 
