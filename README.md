@@ -1,7 +1,7 @@
 <!-- CG-SLAM   -->
 
 <p align="center">
-  <h1 align="center"><sup><img src="./assets/Logo.png" alt="Logo" width="70px"></sup>CG-SLAM: Efficient Dense RGB-D SLAM in a Consistent Uncertainty-aware 3D Gaussian Field</h1>
+  <h1 align="center"><sup><img src="./assets/Logo.png" alt="Logo" width="60px"></sup>CG-SLAM: Efficient Dense RGB-D SLAM in a Consistent Uncertainty-aware 3D Gaussian Field</h1>
   <p align="center">
     <a href="https://github.com/hjr37/"><strong>Jiarui Hu</strong><sup>1</sup></a>
     ·
