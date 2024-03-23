@@ -1,7 +1,7 @@
 <!-- CG-SLAM   -->
 
 <p align="center">
-  <h1 align="center"><sup><img src="./assets/Logo.png" alt="Logo" width="60px"></sup>CG-SLAM: Efficient Dense RGB-D SLAM in a Consistent Uncertainty-aware 3D Gaussian Field</h1>
+  <h1 align="center"><sup><img src="./assets/Logo.png" alt="Logo" width="70px"></sup>CG-SLAM: Efficient Dense RGB-D SLAM in a Consistent Uncertainty-aware 3D Gaussian Field</h1>
   <p align="center">
     <a href="https://github.com/hjr37/"><strong>Jiarui Hu</strong><sup>1</sup></a>
     ·
@@ -129,6 +129,7 @@ Then you can run CG-SLAM:
 ```bash
 python run.py --config ./configs/ScanNet/scene0000.yaml
 ```
+<p align="left", style="text-align: justify;">Please note that if you intend to run the light version of CG-SLAM, you need to add <code>[crop_size]</code> primarily in the <code>replica.yaml</code> file located in the <code>./configs/</code> directory.</p>
 
 ## Evaluation
 <p align="left", style="text-align: justify;">Once the execution of a scene is completed, you can utilize the <code>eval_ate.py</code> in the <code>./tools/ </code> directoory to evaluate the tracking accuracy of our system in that specific scene.</p>
@@ -137,5 +138,6 @@ python run.py --config ./configs/ScanNet/scene0000.yaml
 python tools/eval_ate.py --config ./configs/Replica/office0.yaml
 ```
 # Acknowledgement
+<p align="left", style="text-align: justify;">We sincerely thank the author of the <a href="https://github.com/graphdeco-inria/gaussian-splatting/">3D Gaussian Splatting</a> and <a href="https://github.com/graphdeco-inria/diff-gaussian-rasterization/">Diff-Gaussian Rasterization</a> repositories for their valuable contributions. Their exceptional work has been instrumental in advancing our project.</p>
 
 # Citation
