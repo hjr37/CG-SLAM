@@ -108,10 +108,23 @@ python run.py --config ./configs/Replica/office0.yaml
 ```
 ### TUM RGB-D
 
+Then you can run CG-SLAM:
+```bash
+python run.py --config ./configs/TUM/fr1_desk.yaml
+```
+
 ### Scannet
 
-## Evaluation
+Then you can run CG-SLAM:
+```bash
+python run.py --config ./configs/ScanNet/scene0000.yaml
+```
 
+## Evaluation
+Once the execution of a scene is completed, you can utilize the `eval_ate.py` in the `./tools/` directoory to evaluate the tracking accuracy of our system in that specific scene.
+```bash
+python tools/eval_ate.py --config ./configs/Replica/office0.yaml
+```
 # Acknowledgement
 
 # Citation
