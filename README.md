@@ -41,7 +41,7 @@
 </p>
 
 <!-- TABLE OF CONTENTS -->
-<details open="open" style='padding: 10px; border-radius:5px 30px 30px 5px; border-style: solid; border-width: 1px;'>
+<details open="open" style='padding: 10px; border-radius:5px 15px 15px 5px; border-style: solid; border-width: 1px;'>
   <summary><strong>Table of Contents</strong></summary>
   <ol>
     <li>
@@ -53,8 +53,8 @@
     <li>
       <a href="#usage">Usage</a>
       <ol>
-        <li><a href="##Run">Run</a></li>
-        <li><a href="##Evaluation">Evaluation</a></li>
+        <li><a href="## Run">Run</a></li>
+        <li><a href="## Evaluation">Evaluation</a></li>
       </ol>
     </li>
     <li>
