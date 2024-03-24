@@ -7,9 +7,9 @@
     ·
     <a href="https://github.com/CXavireH/"><strong>Xianhao Chen</strong><sup>2</sup></a>
     ·
-    <a href=""><strong>Boyin Feng</strong><sup>1</sup></a>
+    <a href="https://github.com/JSUISLA"><strong>Boyin Feng</strong><sup>1</sup></a>
     ·
-    <a href=""><strong>Guanglin Li</strong><sup>1</sup></a>
+    <a href="https://github.com/liguanglin"><strong>Guanglin Li</strong><sup>1</sup></a>
     ·
     <a href="https://person.zju.edu.cn/ylj/"><strong>Liangjing Yang</strong><sup>2</sup></a>
     <br>
