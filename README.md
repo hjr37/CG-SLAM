@@ -117,14 +117,14 @@ Then you can run CG-SLAM:
 python run.py --config ./configs/Replica/office0.yaml
 ```
 ### TUM RGB-D
-
+<p style="text-align: justify;">Just like in <strong>Replica<strong>, you need to modify the <code>input_folder</code>code> to the appropriate path where your data is located.</p>
 Then you can run CG-SLAM:
 ```bash
 python run.py --config ./configs/TUM/fr1_desk.yaml
 ```
 
 ### Scannet
-
+<p style="text-align: justify;">Just like in <strong>Replica<strong>, you need to modify the <code>input_folder</code>code> to the appropriate path where your data is located.</p>
 Then you can run CG-SLAM:
 ```bash
 python run.py --config ./configs/ScanNet/scene0000.yaml
