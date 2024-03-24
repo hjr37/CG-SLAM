@@ -23,7 +23,7 @@
     <sup>2 </sup>ZJU-UIUC Institute, International Campus, Zhejiang University<br>
     <sup>* </sup>Corresponding author.<br>
   </p>
-  <h3 align="center"><a href="">🌐Project page</a> | <a href="">📝Paper</a> | <a href="">📽️Video</a></h3>
+  <h3 align="center"><a href="https://zju3dv.github.io/cg-slam/">🌐Project page</a> | <a href="">📝Paper</a> | <a href="">📽️Video</a></h3>
   <div align="center"></div>
 </p>
 
