@@ -132,8 +132,8 @@ Then you can run CG-SLAM:
 python run.py --config ./configs/ScanNet/scene0000.yaml
 ```
 
-> [!NOTE]
-> Please note that if you intend to run the **light version** of CG-SLAM, you need to add <code>[crop_size]</code> primarily in the <code>replica.yaml</code> file located in the <code>./configs/</code> directory.
+<!-- > [!NOTE]
+> Please note that if you intend to run the **light version** of CG-SLAM, you need to add <code>[crop_size]</code> primarily in the <code>replica.yaml</code> file located in the <code>./configs/</code> directory. -->
 
 ## Evaluation
 <p style="text-align: justify;">Once the execution of a scene is completed, you can utilize the <code>eval_ate.py</code> in the <code>./tools/ </code> directoory to evaluate the tracking accuracy of our system in that specific scene.</p>
