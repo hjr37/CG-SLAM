@@ -48,13 +48,18 @@
       <a href="#Update">Update</a>
     </li>
     <li>
+      <a href="#Submodule">Submodule</a>
+    </li>
+    <li>
       <a href="#installation">Installation</a>
     </li>
     <li>
       <a href="#usage">Usage</a>
       <ol>
-        <li><a href="https://github.com/hjr37/CG-SLAM/tree/main?tab=readme-ov-file#run">Run</a></li>
-        <li><a href="https://github.com/hjr37/CG-SLAM/tree/main?tab=readme-ov-file#Evaluation">Evaluation</a></li>
+        <li><a href="## Run">Run</a></li>
+<!--         <li><a href="https://github.com/hjr37/CG-SLAM/tree/main?tab=readme-ov-file#run">Run</a></li> -->
+        <li><a href="## Evaluation">Evaluation</a></li>
+<!--         <li><a href="https://github.com/hjr37/CG-SLAM/tree/main?tab=readme-ov-file#Evaluation">Evaluation</a></li> -->
       </ol>
     </li>
     <li>
@@ -62,9 +67,6 @@
     </li>
     <li>
       <a href="#Citation">Citation</a>
-    </li>
-    <li>
-      <a href="#Submodule">Submodule</a>
     </li>
   </ol>
 </details>
