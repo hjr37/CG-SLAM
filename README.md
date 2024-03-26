@@ -63,6 +63,9 @@
     <li>
       <a href="#Citation">Citation</a>
     </li>
+    <li>
+      <a href="#Submodule">Submodule</a>
+    </li>
   </ol>
 </details>
 
