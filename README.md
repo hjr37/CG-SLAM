@@ -150,8 +150,8 @@ python run.py --config ./configs/ScanNet/scene0000.yaml
 ```bash
 python tools/eval_ate.py --config ./configs/Replica/office0.yaml
 ```
+-->
 # Acknowledgement
 <p style="text-align: justify;">We sincerely thank the author of the <a href="https://github.com/graphdeco-inria/gaussian-splatting/">3D Gaussian Splatting</a> and <a href="https://github.com/graphdeco-inria/diff-gaussian-rasterization/">Diff-Gaussian Rasterization</a> repositories for their valuable contributions. Their exceptional work has been instrumental in advancing our project.</p>
--->
 
 # Citation
