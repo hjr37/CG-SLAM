@@ -74,6 +74,7 @@
 - [ ] Code for Evaluation
 
 # Installation
+<!--
 <p style="text-align: justify;">We conducted our system testing on two desktop configurations: one with an Intel i9-14900K CPU and an NVIDIA RTX 4090 GPU, and another with an Intel Xeon Gold CPU and an NVIDIA RTX 3090 GPU. Our code has undergone testing with CUDA SDK 11.3 and Python 3.8.</p>
 <p style="text-align: justify;"><strong>In terms of hardware requirements,</strong> it is necessary to have a CUDA-enabled GPU with a Compute Capability of 7.0 or higher, as well as a minimum of 10GB VRAM.</p>
 <p style="text-align: justify;"><strong>In terms of software requirements,</strong> we recommend using Conda to manage your environment. Additionally, you need to meet the following three conditions for our code: a C++ Compiler for PyTorch extensions, CUDA SDK 11 for PyTorch extensions, and compatibility between the C++ Compiler and CUDA SDK.</p>
@@ -103,7 +104,8 @@ pip install pyyaml scikit-image torch_scatter opencv-python plyfile open3d tenso
 ```bash
 conda env create --file environment.yml
 conda activate cg-slam
-```
+```-->
+
 # Usage
 
 ## Run
