@@ -138,7 +138,7 @@ Then you can run CG-SLAM:
 python run.py --config ./configs/ScanNet/scene0000.yaml
 ```
 
-<!-- > [!NOTE]
+> [!NOTE]
 > Please note that if you intend to run the **light version** of CG-SLAM, you need to add <code>[crop_size]</code> primarily in the <code>replica.yaml</code> file located in the <code>./configs/</code> directory.
 
 
