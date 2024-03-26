@@ -110,8 +110,8 @@ conda activate cg-slam
 # Usage
 
 ## Run
-### Replica
 <!--
+### Replica
 <p align="left">
   <p style="text-align: justify;">After downloading the dataset, you need to locate the corresponding YAML file in the <code>./configs/Replica</code> directory. Then, modify the value of <code>input_folder</code> in the YAML file to the local location of the datasets.</p>
 </p>
