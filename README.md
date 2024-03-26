@@ -110,6 +110,7 @@ conda activate cg-slam
 
 ## Run
 ### Replica
+<!--
 <p align="left">
   <p style="text-align: justify;">After downloading the dataset, you need to locate the corresponding YAML file in the <code>./configs/Replica</code> directory. Then, modify the value of <code>input_folder</code> in the YAML file to the local location of the datasets.</p>
 </p>
@@ -136,8 +137,10 @@ python run.py --config ./configs/ScanNet/scene0000.yaml
 
 <!-- > [!NOTE]
 > Please note that if you intend to run the **light version** of CG-SLAM, you need to add <code>[crop_size]</code> primarily in the <code>replica.yaml</code> file located in the <code>./configs/</code> directory. -->
+-->
 
 ## Evaluation
+<!--
 <p style="text-align: justify;">Once the execution of a scene is completed, you can utilize the <code>eval_ate.py</code> in the <code>./tools/ </code> directoory to evaluate the tracking accuracy of our system in that specific scene.</p>
 
 ```bash
@@ -145,5 +148,6 @@ python tools/eval_ate.py --config ./configs/Replica/office0.yaml
 ```
 # Acknowledgement
 <p style="text-align: justify;">We sincerely thank the author of the <a href="https://github.com/graphdeco-inria/gaussian-splatting/">3D Gaussian Splatting</a> and <a href="https://github.com/graphdeco-inria/diff-gaussian-rasterization/">Diff-Gaussian Rasterization</a> repositories for their valuable contributions. Their exceptional work has been instrumental in advancing our project.</p>
+-->
 
 # Citation
