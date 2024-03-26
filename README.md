@@ -77,7 +77,6 @@
 - [ ] Code for Evaluation
 
 # Installation
-<!--
 <p style="text-align: justify;">We conducted our system testing on two desktop configurations: one with an Intel i9-14900K CPU and an NVIDIA RTX 4090 GPU, and another with an Intel Xeon Gold CPU and an NVIDIA RTX 3090 GPU. Our code has undergone testing with CUDA SDK 11.3 and Python 3.8.</p>
 <p style="text-align: justify;"><strong>In terms of hardware requirements,</strong> it is necessary to have a CUDA-enabled GPU with a Compute Capability of 7.0 or higher, as well as a minimum of 10GB VRAM.</p>
 <p style="text-align: justify;"><strong>In terms of software requirements,</strong> we recommend using Conda to manage your environment. Additionally, you need to meet the following three conditions for our code: a C++ Compiler for PyTorch extensions, CUDA SDK 11 for PyTorch extensions, and compatibility between the C++ Compiler and CUDA SDK.</p>
@@ -108,12 +107,12 @@ pip install pyyaml scikit-image torch_scatter opencv-python plyfile open3d tenso
 conda env create --file environment.yml
 conda activate cg-slam
 ```
--->
+
 
 # Usage
 
 ## Run
-<!--
+
 ### Replica
 <p align="left">
   <p style="text-align: justify;">After downloading the dataset, you need to locate the corresponding YAML file in the <code>./configs/Replica</code> directory. Then, modify the value of <code>input_folder</code> in the YAML file to the local location of the datasets.</p>
@@ -141,16 +140,16 @@ python run.py --config ./configs/ScanNet/scene0000.yaml
 
 <!-- > [!NOTE]
 > Please note that if you intend to run the **light version** of CG-SLAM, you need to add <code>[crop_size]</code> primarily in the <code>replica.yaml</code> file located in the <code>./configs/</code> directory.
--->
+
 
 ## Evaluation
-<!--
+
 <p style="text-align: justify;">Once the execution of a scene is completed, you can utilize the <code>eval_ate.py</code> in the <code>./tools/ </code> directoory to evaluate the tracking accuracy of our system in that specific scene.</p>
 
 ```bash
 python tools/eval_ate.py --config ./configs/Replica/office0.yaml
 ```
--->
+
 # Acknowledgement
 <p style="text-align: justify;">We sincerely thank the author of the <a href="https://github.com/graphdeco-inria/gaussian-splatting/">3D Gaussian Splatting</a> and <a href="https://github.com/graphdeco-inria/diff-gaussian-rasterization/">Diff-Gaussian Rasterization</a> repositories for their valuable contributions. Their exceptional work has been instrumental in advancing our project.</p>
 
