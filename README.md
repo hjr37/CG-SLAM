@@ -104,7 +104,8 @@ pip install pyyaml scikit-image torch_scatter opencv-python plyfile open3d tenso
 ```bash
 conda env create --file environment.yml
 conda activate cg-slam
-```-->
+```
+-->
 
 # Usage
 
