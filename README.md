@@ -77,7 +77,7 @@
 - [ ] Code for Evaluation
 
 # Submodule
-<p style="text-align: justify;">we have proposed the first comprehensive mathematical theory on derivatives w.r.t. pose in 3D Gaussian splatting framewor. Additionally, we have developed a <strong>specialized CUDA framework tailored</strong> for the SLAM task, effectively decoupling the tracking and mapping components. For more details, please refer to the provided <a href="https://github.com/hjr37/diff-gaussian-rasterization">diff-gaussian-rasterization</a>.</p>p
+<p style="text-align: justify;">we have proposed the first comprehensive mathematical theory on derivatives w.r.t. pose in 3D Gaussian splatting framewor. Additionally, we have developed a <strong>specialized CUDA framework tailored</strong> for the SLAM task, effectively decoupling the tracking and mapping components. For more details, please refer to the provided <a href="https://github.com/hjr37/diff-gaussian-rasterization">diff-gaussian-rasterization</a>.</p>
 
 # Installation
 <p style="text-align: justify;">We conducted our system testing on two desktop configurations: one with an Intel i9-14900K CPU and an NVIDIA RTX 4090 GPU, and another with an Intel Xeon Gold CPU and an NVIDIA RTX 3090 GPU. Our code has undergone testing with CUDA SDK 11.3 and Python 3.8.</p>
