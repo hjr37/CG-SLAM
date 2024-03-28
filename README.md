@@ -104,7 +104,7 @@ git clone --branch v0.6.2 https://github.com/facebookresearch/pytorch3d.gity
 cd pytorch3d && pip install -e . && cd ..
 pip install submodules/diff-gaussian-rasterization/
 pip install submodules/simple-knn/
-pip install pyyaml scikit-image torch_scatter opencv-python plyfile open3d tensorboard
+pip install pyyaml scikit-image torch_scatter opencv-python plyfile open3d tensorboard mathutils==2.81.2
 ```
 - ### Method 2 Configure the environment in one line
 ```bash
