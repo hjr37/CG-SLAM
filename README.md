@@ -72,7 +72,7 @@
 
 # Update
 
-- [-] Code for Diff-rasterization(w/pose --> 4✖️4 Transformation Matrix <strong>T</strong>)
+- [×] Code for Diff-rasterization(w/pose --> 4✖️4 Transformation Matrix <strong>T</strong>)
 - [ ] Code for RGBD-SLAM
 - [ ] Code for Evaluation
 
