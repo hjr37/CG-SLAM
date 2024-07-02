@@ -2,8 +2,8 @@
 
 <p align="center">
   <h1 align="center"><sup><img src="./assets/Logo.png" alt="Logo" width="70px"></sup>CG-SLAM: Efficient Dense RGB-D SLAM in a Consistent Uncertainty-aware 3D Gaussian Field</h1>
+  <h2 align="center">ECCV 2024</h2>
   <p align="center">
-  <h2 align="center">CVPR 2022</h2>
     <a href="https://github.com/hjr37/"><strong>Jiarui Hu</strong><sup>1</sup><sup>†</sup></a>
     ·
     <a href="https://github.com/CXavireH/"><strong>Xianhao Chen</strong><sup>2</sup><sup>†</sup></a>
