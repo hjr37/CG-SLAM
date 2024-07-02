@@ -79,6 +79,7 @@
 # Update
 
 - [x] Code for Diff-rasterization(w/pose --> 4✖️4 Transformation Matrix <strong>T</strong>)
+- [x] [news] Our paper was accepted by ECCV 2024, and our code is coming soon.
 - [ ] Code for RGBD-SLAM
 - [ ] Code for Evaluation
 
