@@ -3,9 +3,13 @@
 <p align="center">
   <h1 align="center"><sup><img src="./assets/Logo.png" alt="Logo" width="70px"></sup>CG-SLAM: Efficient Dense RGB-D SLAM in a Consistent Uncertainty-aware 3D Gaussian Field</h1>
   <p align="center">
-    <a href="https://github.com/hjr37/"><strong>Jiarui Hu</strong><sup>1</sup></a>
+<!--     <a href="https://github.com/hjr37/"><strong>Jiarui Hu</strong><sup>1</sup></a>
     ·
-    <a href="https://github.com/CXavireH/"><strong>Xianhao Chen</strong><sup>2</sup></a>
+    <a href="https://github.com/CXavireH/"><strong>Xianhao Chen</strong><sup>2</sup></a> -->
+    <a href="https://github.com/hjr37/"><strong>Jiarui Hu</strong><sup>1</sup><sup>†</sup></a>
+    ·
+    <a href="https://github.com/CXavireH/"><strong>Xianhao Chen</strong><sup>2</sup><sup>†</sup></a>
+
     ·
     <a href="https://github.com/JSUISLA"><strong>Boyin Feng</strong><sup>1</sup></a>
     ·
