@@ -1,0 +1,44 @@
+data:
+  input_folder: /mnt/nas_7/datasets/ScanNet/scans/scene0181_00
+  output_folder: output/scannet/scans/scene0181_00
+dataset: 'scannet'
+scale: 1.0
+name: scene0181
+
+extent_size: 2.0
+lr_scale: 2.0
+cam: 
+  H: 480 
+  W: 640
+  fx: 577.590698
+  fy: 578.729797
+  cx: 318.905426
+  cy: 242.683609
+  png_depth_scale: 1000. #for depth image in png format
+  crop_edge: 10
+  # crop_size: [240,320]
+
+
+tracking:
+  ignore_edge_W: 75
+  ignore_edge_H: 75
+  iters: 50 # 50
+  lr: 0.00475
+  T_color_weight: 1.0
+  T_depth_weight: 0.8
+  T_rot_lr: 0.0025
+  T_tran_lr: 0.00215
+
+mapping:
+  init: 1500
+  iters: 50
+  interval: 5
+  window_size: 10
+  M_color_weight: 1.0
+  M_depth_weight: 1.0
+
+optim_hyper:
+  scaling_lr: 0.0001
+  position_lr_init: None
+  position_lr_final: None
+  feature_lr: None

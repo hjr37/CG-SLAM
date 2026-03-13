@@ -1,0 +1,23 @@
+inherit_from: configs/Replica/replica.yaml
+name: of0
+extent_size: 5.0 
+lr_scale: 5.0
+data:
+  input_folder: '/mnt/nas_9/datasets/Replica/office0'
+  output_folder: './output/Replica/office0'
+
+tracking:
+  T_color_weight: 0.2
+  T_depth_weight: 1.0
+  T_rot_lr: 0.0015
+  T_tran_lr: 0.00215
+
+mapping:
+  M_color_weight: 0.8
+  M_depth_weight: 0.25
+
+optim_hyper:
+  scaling_lr: None
+  position_lr_init: None
+  position_lr_final: None
+  feature_lr: None

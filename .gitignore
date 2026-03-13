@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Environments
+.venv/
+venv/
+env/
+.env
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+*.so
+*.o
+*.a
+*.ninja
+
+# Logs and editor files
+*.log
+*.swp
+*.swo
+.DS_Store
+
+# Training and evaluation outputs
+runs/
+snapshot_fw.dump
+snapshot_bw.dump
+
+# Submodule build outputs
+submodules/**/build/
+submodules/**/*.egg-info/
+
+# Notebook and cache
+.ipynb_checkpoints/
+utils/loop_detection/Pitts30K_struct.mat
+utils/loop_detection/TokyoTM_struct.mat

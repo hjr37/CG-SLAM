@@ -1,0 +1,28 @@
+dataset: 'replica'
+scale: 1.0
+
+cam:
+  H: 680
+  W: 1200
+  fx: 600.0
+  fy: 600.0
+  cx: 599.5
+  cy: 339.5
+  png_depth_scale: 6553.5 #for depth image in png format
+  crop_edge: 0
+  crop_size: [340, 600]
+
+tracking:
+  ignore_edge_W: 75
+  ignore_edge_H: 75
+  iters: 15
+  lr: 0.00475
+
+mapping:
+  init: 1500 #1500
+  iters: 60 #80
+  interval: 30
+  window_size: 4 #4
+
+
+

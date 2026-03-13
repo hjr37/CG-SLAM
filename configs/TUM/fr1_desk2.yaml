@@ -1,0 +1,44 @@
+name: fr1_d2
+dataset: 'tum'
+data:
+  input_folder: /mnt/nas_9/datasets/TUM_RGBD/rgbd_dataset_freiburg1_desk2
+  output_folder: output/TUM_RGBD/rgbd_dataset_freiburg1_desk2
+  
+scale: 1.0
+extent_size: 2.0
+lr_scale: 2.0
+cam:  #intrinsic is different per scene in TUM
+  H: 480
+  W: 640
+  fx: 517.3
+  fy: 516.5
+  cx: 318.6
+  cy: 255.3
+  png_depth_scale: 5000.0
+  crop_edge: 8
+  crop_size: [240,320]
+  distortion: [0.2624, -0.9531, -0.0054, 0.0026, 1.1633]
+
+tracking:
+  ignore_edge_W: 20
+  ignore_edge_H: 20
+  iters: 50
+  lr: 0.00475
+  T_color_weight: 1.0
+  T_depth_weight: 0.6
+  T_rot_lr: 0.0015
+  T_tran_lr: 0.00215
+
+mapping:
+  init: 1500
+  iters: 80 #80
+  interval: 10
+  window_size: 8 #4
+  M_color_weight: 0.9
+  M_depth_weight: 1.0
+
+optim_hyper:
+  scaling_lr: 0.0001
+  position_lr_init: None
+  position_lr_final: None
+  feature_lr: None
